@@ -1,0 +1,13 @@
+.text-transition-container {
+  color: #870B58;
+  opacity: 0.58;
+  font-size: 20px;
+  font-weight: 500; 
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  height: 100%; 
+  position: fixed;
+  left: 800px; 
+}

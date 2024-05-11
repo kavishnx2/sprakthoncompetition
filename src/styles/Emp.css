@@ -1,0 +1,67 @@
+.emp-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    /* This makes sure the content is centered vertically */
+}
+
+.rounded-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-top: 15px;
+}
+
+h1{
+    font-weight: bold;
+    margin-top: 15px;
+}
+h3 {
+    text-align: center;
+    margin: 5px 0;
+    font-style: sans-serif;
+    font-weight: 100;
+}
+
+h4 {
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+p{
+    margin-top: 4px;
+    color: white;
+}
+
+.rounded-box {
+    border-radius: 10px;
+    background-color: #F8AD07;
+    height: 50px;
+    width: 70px;
+    text-align: center;
+    margin: 2px;
+    font-size: small;
+}
+.rounded-box-1 {
+    border-radius: 10px;
+    background-color: #F8AD07;
+    height: 30px;
+    width: 70px;
+    text-align: center;
+    margin: 2px;
+    font-size: small;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.space {
+    margin-top: 5px;
+    height: 220px;
+    width: 180px;
+}

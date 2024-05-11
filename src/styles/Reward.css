@@ -1,0 +1,35 @@
+.popup-container {
+    position: relative;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    background-color: #000;
+    border: none;
+    font-size: 18px;
+    line-height: 1;
+    padding: 5px 10px;
+    border-radius: 50%;
+    outline: none;
+  }
+  
+  .image-container {
+    position: relative;
+  }
+  
+  .scratch-card-container {
+    /* Your existing styles for the scratch card container */
+  }
+  
+  .reward-text {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    text-align: center;
+    color: #000;
+  }
+  
+  
