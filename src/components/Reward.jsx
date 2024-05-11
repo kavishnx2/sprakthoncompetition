@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import ScratchCard from "react-scratchcard-v2";
 import Confetti from "react-confetti";
 import '../styles/Reward.css';
 
@@ -24,13 +23,6 @@ const Reward = ({ onClose }) => {
         )}
 
         <div className="image-container">
-          <ScratchCard
-            width={300}
-            height={300}
-            image={imageURL}
-            finishPercent={80}
-            onComplete={handleComplete}
-          />
           <p className="reward-text">Rs100</p>
         </div>
       </div>
